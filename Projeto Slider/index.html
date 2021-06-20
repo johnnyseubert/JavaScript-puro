@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+        </div>
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="slider--control" onclick="goPrev()" style=" transform: scaleX(-1);"><img
+                        src="images/arrow.png"></div>
+                <div class="slider--control" onclick="goNext()"><img src="images/arrow.png"></div>
+            </div>
+            <div class="slider--width">
+                <div class="slider--item" style="background-image: url(images/1.jpg)">
+                    Floresta
+                </div>
+                <div class="slider--item" style="background-image: url(images/2.jpg)">
+                    Magia
+                </div>
+                <div class="slider--item" style="background-image: url(images/3.jpg)">
+                    Aventura
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <h1>Resto do WebSite</h1>
+    <script src="script.js"></script>
+</body>
+
+</html>
